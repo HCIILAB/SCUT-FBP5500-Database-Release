@@ -15,19 +15,22 @@ Note: The SCUT-FBP5500 database can be only used for non-commercial research pur
 
 The SCUT-FBP5500 Dataset can be divided into four subsets with different races and gender, including 2000 Asian females, 2000 Asian males, 750 Caucasian females and 750 Caucasian males. Most of the images of the SCUT-FBP5500 were collected from Internet, where some portions of Asian faces were from the DataTang, GuangZhouXiangSu and our laboratory, and some Caucasian faces were from the 10k US Adult Faces database.
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/%E5%9B%BE%E7%89%871.jpg)
+
 All the images are labeled with beauty scores ranging from [1, 5] by totally 60 volunteers, and 86 facial landmarks are also  located to the significant facial components of each images. We developed a web-based GUI system to obtain the facial beauty scores and facial landmark locations respectively. 
 
 ### Training/Testing Set
 
 We use two kinds of evaluation benchmarks to testing methods on SCUT-FBP5500, by spliting the SCUT-FBP5500 database in two ways: 
-1.5-folds cross validation. For each cross validations, 4400 images are used for training and 1100 images are used for testing.  
-2.6/4 training/testing. 
+
+1) 5-folds cross validation. For each cross validations, 4400 images are used for training and 1100 images are used for testing.
+
+2) 6/4 training/testing. 
 
 ## Contact
 
 Please consider to cite our paper when you use our database:
 ```
-@article{liu2017curve,
+@article{liang2017SCUT,
   title     = {SCUT-FBP5500: A Diverse Benchmark Dataset for Multi-Paradigm Facial Beauty Prediction},
   author    = {Liang, Lingyu and Lin, Luojun and Jin, Lianwen and Xie, Duorui and Li, Mengru},
   jurnal    = {arXiv preprint },
