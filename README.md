@@ -21,13 +21,22 @@ All the images are labeled with beauty scores ranging from [1, 5] by totally 60 
 
 ### Training/Testing Set
 
-We use two kinds of evaluation benchmarks to testing methods on SCUT-FBP5500, by spliting the SCUT-FBP5500 database in two ways: 
+We use two kinds of experiments settings to evaluate the facial beauty prediction methods on SCUT-FBP5500 benchmark, which includes: 
 
-1) 5-folds cross validation. For each cross validations, 4400 images are used for training and 1100 images are used for testing.
+1) 5-folds cross validation. For each validation, 80% samples (4400 images) are used for training and the rest (1100 images) are used for testing.
+2) The split of 60% training and 40% testing. 60% samples (3300 images) are used for training and the rest (2200 images) are used for testing.
+We have provided the training and testing files in this link.  
 
-2) 6/4 training/testing. 
+## Evaluation Results
+We evaluate three different CNN models based on the structure of AlexNet,ResNet-18 and ResNeXt-50 on SCUT-FBP5500. The evaluation results are:
 
-## Contact
+1) 5-folds cross validation.
+![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results of 5-folds cross validations.png)
+
+2) The split of 60% training and 40% testing.
+![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results of the split of 60% training and 40% testing.png)
+
+## Citation and Contact
 
 Please consider to cite our paper when you use our database:
 ```
