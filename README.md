@@ -28,6 +28,7 @@ We use two kinds of experiments settings to evaluate the facial beauty predictio
 We have provided the training and testing files in this link.  
 
 ## 3 Evaluation Results
+
 We evaluate three different CNN models based on the structure of AlexNet,ResNet-18 and ResNeXt-50 on SCUT-FBP5500. The evaluation results are:
 
 1) 5-folds cross validation.
