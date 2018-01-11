@@ -29,12 +29,9 @@ We have provided the training and testing files in this link.
 
 ## 3 Evaluation Results
 
-We evaluate three different CNN models based on the structure of AlexNet,ResNet-18 and ResNeXt-50 on SCUT-FBP5500. The evaluation results are:
+We evaluate three different CNN models based on the structure of AlexNet,ResNet-18 and ResNeXt-50 on SCUT-FBP5500:
 
-1) 5-folds cross validation.
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%205-folds%20cross%20validations.png)
-
-2) The split of 60% training and 40% testing.
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%20the%20split%20of%2060%25%20training%20and%2040%25%20testing.png)
 
 ## 4 Citation and Contact
