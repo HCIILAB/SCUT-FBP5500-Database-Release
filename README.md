@@ -1,6 +1,6 @@
 # SCUT-FBP5500-Database-Release
 
-A diverse benchmark database for multi-paradigm facial beauty prediction is now released by Human Computer Intelligent Interaction Lab of South China University of Technology. The database can be downloaded through the following link: (https://pan.baidu.com/s/1skLIxJ3  PASSWORD: jpqb) (Size = 167MB). 
+A diverse benchmark database for multi-paradigm facial beauty prediction is now released by Human Computer Intelligent Interaction Lab of South China University of Technology. The database can be downloaded through the following link: (https://pan.baidu.com/s/1mjfSJLu  PASSWORD: lj07) (Size = 167MB). 
 
 ## 1 Description
 
@@ -42,7 +42,7 @@ Please consider to cite our paper when you use our database:
   title     = {SCUT-FBP5500: A Diverse Benchmark Dataset for Multi-Paradigm Facial Beauty Prediction},
   author    = {Liang, Lingyu and Lin, Luojun and Jin, Lianwen and Xie, Duorui and Li, Mengru},
   jurnal    = {arXiv:1801.06345},
-  year      = {2017}
+  year      = {2018}
 }
 ```
 
