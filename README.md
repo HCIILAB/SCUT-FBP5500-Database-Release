@@ -41,7 +41,7 @@ Please consider to cite our paper when you use our database:
 @article{liang2017SCUT,
   title     = {SCUT-FBP5500: A Diverse Benchmark Dataset for Multi-Paradigm Facial Beauty Prediction},
   author    = {Liang, Lingyu and Lin, Luojun and Jin, Lianwen and Xie, Duorui and Li, Mengru},
-  jurnal    = {arXiv preprint },
+  jurnal    = {arXiv:1801.06345},
   year      = {2017}
 }
 ```
