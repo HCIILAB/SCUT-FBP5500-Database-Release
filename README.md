@@ -2,7 +2,7 @@
 
 A diverse benchmark database for multi-paradigm facial beauty prediction is now released by Human Computer Intelligent Interaction Lab of South China University of Technology. The database can be downloaded through the following links: 
 * (https://pan.baidu.com/s/1z3qFx8yu9AvTxhEhBmAWrg   PASSWORD: 878x) (Size = 172MB)
-* (https://iapr.papercept.net/conferences/scripts/setpwd.pl?PIN=35981&Time=1524563827&Hash=HiV6CHJ5Df27ipF946fefRV8QCHnKjoyMdgMaUphCPk). 
+* (https://drive.google.com/file/d/16RTlmaJZMvCRPz-j5CvsDaq1GTtIWf6Q/view?usp=sharingk). 
 
 ## 1 Description
 
