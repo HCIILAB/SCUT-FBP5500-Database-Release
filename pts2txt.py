@@ -1,3 +1,4 @@
+### convert 'pts' to 'txt' format
 import os
 import re
 import struct
