@@ -24,9 +24,9 @@ We use two kinds of experimental settings to evaluate the facial beauty predicti
 2) The split of 60% training and 40% testing. 60% samples (3300 images) are used for training and the rest (2200 images) are used for testing.
 We have provided the training and testing files in this link.  
 
-## 3 Evaluation Results
+## 3 Benchmark Evaluation
 
-We evaluate three different CNN models on SCUT-FBP5500 dataset for facial beauty prediction using two kinds of experimental settings respectively. Three different evaluation metrics are used, which includes: Pearson correlation (PC), maximum absolute error (MAE), root mean square error (RMSE). 
+We evaluate three different CNN models on SCUT-FBP5500 dataset for facial beauty prediction using two kinds of experimental settings, respectively. These CNNs are trained by initializing parameters with the models pretrained on ImageNet. Three different evaluation metrics are used in our experiments, including: Pearson correlation (PC), maximum absolute error (MAE), root mean square error (RMSE). More experimental details are in our paper. 
 
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%205-folds%20cross%20validations.png)
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%20the%20split%20of%2060%25%20training%20and%2040%25%20testing.png)
