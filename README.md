@@ -26,10 +26,12 @@ We have provided the training and testing files in this link.
 
 ## 3 Benchmark Evaluation
 
-We evaluate three different CNN models on SCUT-FBP5500 dataset for facial beauty prediction using two kinds of experimental settings, respectively. These CNNs are trained by initializing parameters with the models pretrained on ImageNet. Three different evaluation metrics are used in our experiments, including: Pearson correlation (PC), maximum absolute error (MAE), root mean square error (RMSE). More experimental details are in our paper. 
+We evaluate three different CNN models (AlexNet, ResNet-18, ResNeXt-50) on SCUT-FBP5500 dataset for facial beauty prediction using two kinds of experimental settings, respectively. These CNNs are trained by initializing parameters with the models pretrained on ImageNet. Three different evaluation metrics are used in our experiments, including: Pearson correlation (PC), maximum absolute error (MAE), root mean square error (RMSE). The evaluation results are shown in the following, and more details are referred to our paper. 
 
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%205-folds%20cross%20validations.png)
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%20the%20split%20of%2060%25%20training%20and%2040%25%20testing.png)
+
+Additionally, we release the feed-forward codes and several trained CNN models which were trained on 'train_1.txt'. Please refer to the 'trained_models' folder for more details.  
 
 ## 4 Citation and Contact
 
