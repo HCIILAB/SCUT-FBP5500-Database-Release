@@ -1,8 +1,8 @@
 # SCUT-FBP5500-Database-Release
 
-A diverse benchmark database for multi-paradigm facial beauty prediction is now released by Human Computer Intelligent Interaction Lab of South China University of Technology. The database can be downloaded through the following links: 
-* (https://pan.baidu.com/s/1Ff2W2VLJ1ZbWSeV5JbF0Iw  PASSWORD: if7p) (Size = 172MB)
-* (https://drive.google.com/open?id=1w0TorBfTIqbquQVd6k3h_77ypnrvfGwf). 
+A diverse benchmark database (Size = 172MB) for multi-paradigm facial beauty prediction is now released by Human Computer Intelligent Interaction Lab of South China University of Technology. The database can be downloaded through the following links: 
+* Download link1 (faster for people in China): https://pan.baidu.com/s/1Ff2W2VLJ1ZbWSeV5JbF0Iw  PASSWORD: if7p 
+* Download link2 (faster for people in other places): https://drive.google.com/open?id=1w0TorBfTIqbquQVd6k3h_77ypnrvfGwf. 
 
 ## 1 Description
 
@@ -29,11 +29,16 @@ We have provided the training and testing files in this link.
 We evaluate three different CNN models (AlexNet, ResNet-18, ResNeXt-50) on SCUT-FBP5500 dataset for facial beauty prediction using two kinds of experimental settings, respectively. These CNNs are trained by initializing parameters with the models pretrained on ImageNet. Three different evaluation metrics are used in our experiments, including: Pearson correlation (PC), maximum absolute error (MAE), root mean square error (RMSE). The evaluation results are shown in the following, and more details are referred to our paper. 
 
 ![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%205-folds%20cross%20validations.png)
-![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%20the%20split%20of%2060%25%20training%20and%2040%25%20testing.png)
+![image](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release/blob/master/Results%20of%20the%20split%20of%2060%25%20training%20and%2040%25%20testing.png) 
 
-Additionally, we release the feed-forward codes and several trained CNN models which were trained on 'train_1.txt'. Please refer to the 'trained_models' folder for more details.  
+## 4 Resources of Trained Models
+We release the codes of feed-forward implementation and several CNN models (like AlexNet, ResNet-18, ResNeXt-50) that were trained by the data of 'train_1.txt'. Please refer to the 'trained_models' folder for more details. The trained models can be downloaded through the following links: 
+* Download link1 (faster for people in China): https://pan.baidu.com/s/1Ff2W2VLJ1ZbWSeV5JbF0Iw  PASSWORD: if7p 
+* Download link2 (faster for people in other places): https://drive.google.com/open?id=1w0TorBfTIqbquQVd6k3h_77ypnrvfGwf.
 
-## 4 Citation and Contact
+
+
+## 5 Citation and Contact
 
 Please consider to cite our paper when you use our database:
 ```
