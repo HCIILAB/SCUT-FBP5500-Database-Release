@@ -39,8 +39,10 @@ We evaluate three different CNN models (AlexNet, ResNet-18, ResNeXt-50) on SCUT-
 
 We release the codes of feed-forward implementation and several CNN models (like AlexNet, ResNet-18, ResNeXt-50) that were trained by the data of 'train_1.txt'. Please refer to the 'trained_models' folder for more details. The trained models can be downloaded through the following links: 
 * Download link1 (faster for people in China): 
+
   https://pan.baidu.com/s/1byWe21ATKnpGarKY5feg1g> (password：owgm; decompression password: 12345)
 * Download link2 (faster for people in other places): 
+
   https://drive.google.com/file/d/1un5CjTz_49Lg6MTNQn99WD7FjFqEJGoY/view (decompression password: 12345)
 
 
