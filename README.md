@@ -30,7 +30,7 @@ We have provided the training and testing files in this link.
 
 ## 3 Training Tutorials and Models
 
-We trained three different CNN models (AlexNet, ResNet-18, ResNeXt-50) on SCUT-FBP5500 dataset for facial beauty prediction by using the L2-norm distance loss. Each raw RGB image is resized as 256\times256, and then a 227 \times 227 random crop of raw image is obtained to feed into AlexNet, while a 224 \times 224 random crop is sent to ResNet and ResNeXt. The model parameters are initialized by the pretrained CNN models of ImageNet and updated by mini-batch Stochastic Gardient Descent (SGD), where the learning rate is initialized as 0.001 and decreased by a factor of 10 per 5000 iterations. We set the batchsize as 16, momentum coefficient as 0.9, maximum iterations as 20000, and weight decay coefficient as 5e-4 for AlexNet while 1e-4 for ResNet and ResNeXt.
+We trained three different CNN models (AlexNet, ResNet-18, ResNeXt-50) on SCUT-FBP5500 dataset for facial beauty prediction by using the L2-norm distance loss. Each raw RGB image is resized as 256\*256, and then a 227\*227 random crop of raw image is obtained to feed into AlexNet, while a 224\*224 random crop is sent to ResNet and ResNeXt. The model parameters are initialized by the pretrained CNN models of ImageNet and updated by mini-batch Stochastic Gardient Descent (SGD), where the learning rate is initialized as 0.001 and decreased by a factor of 10 per 5000 iterations. We set the batchsize as 16, momentum coefficient as 0.9, maximum iterations as 20000, and weight decay coefficient as 5e-4 for AlexNet while 1e-4 for ResNet and ResNeXt.
 
 All the experiments were implemented on two different platforms separately, Caffe and Pytorch. And we release the codes of feed-forward implementation and the CNN models that were trained by the data of 'train_1.txt'. Please refer to the 'trained_models_for_caffe' and 'trained_models_for_pytorch' folders for more details. The trained models for Caffe (Size = 322MB) can be downloaded through the following links: 
 * Download link1 (faster for people in China): 
@@ -42,6 +42,7 @@ All the experiments were implemented on two different platforms separately, Caff
 
 And the trained models for Pytorch (Size = 101MB) can be downloaded throught the following link:
 * Download link: 
+
 https://pan.baidu.com/s/1OhyJsCMfAdeo8kIZd29yAw (PASSWORD: ateu)
 
 
