@@ -3,12 +3,9 @@ import random
 import skimage
 import numpy as np
 import matplotlib.pyplot as plt
-import pdb
-import math
-
 import caffe
 
-def get_mean_npy(mean_bin_file, crop_size=None):
+def get_mean_npy(mean_bin_file, crop_size=None, isColor = True):
     mean_blob = caffe.proto.caffe_pb2.BlobProto()
     mean_blob.ParseFromString(open(mean_bin_file, 'rb').read())
 
@@ -21,6 +18,11 @@ def get_mean_npy(mean_bin_file, crop_size=None):
             :,
             (_shape[2] - crop_size[0]) / 2:(_shape[2] + crop_size[0]) / 2,
             (_shape[3] - crop_size[1]) / 2:(_shape[3] + crop_size[1]) / 2]
+
+    if not isColor:
+    	mean_npy = np.mean(mean_npy, axis = 0)
+    	mean_npy = mean_npy[np.newaxis, :, :]
+
     return mean_npy
 
 def crop_img(img, crop_size, crop_type='center_crop'):
@@ -70,7 +72,7 @@ def load_img(path, resize=128, isColor=True,
     else:
         img = skimage.color.rgb2gray(img)
         img = img[np.newaxis, :, :]
-    # pdb.set_trace()
+
     img = skimage.img_as_float(img).astype(np.float32) * raw_scale #img is between[0,1]
 
     if means is not None:
@@ -87,14 +89,15 @@ def main():
     # 227 * 227 for alexnet, 224 * 224 for resnet18 and resnext50
     shapes = [(1, 3, 227, 227), (1, 3, 224, 224)] 
 
-    network_file = deploy[0]
-    pretrained_model = models[0]
-    batch_shape = shapes[0]
+    network_file = deploy[1]
+    pretrained_model = models[1]
+    batch_shape = shapes[1]
+    is_color = True
 
-    mean_file = "./data/256_train_mean_1.binaryproto"
-    means = get_mean_npy(mean_file, crop_size = batch_shape[2:])
-    roots = './data/faces/'
-    file = open('./data/test_1.txt','r')
+    mean_file = "../data/1/256_train_mean.binaryproto"
+    means = get_mean_npy(mean_file, crop_size = batch_shape[2:], isColor = is_color)
+    roots = '../data/faces/'
+    file = open('../data/1/test_1.txt','r')
     lines = file.readlines()
     file.close()
     
@@ -108,16 +111,12 @@ def main():
         filename = linesplit[0]
         label = float(linesplit[1])
     	imgdir = roots + filename
-
-    	inputs = load_img(imgdir, resize = (256, 256), isColor = True, crop_size = batch_shape[3], crop_type = 'center_crop',
-                 raw_scale = 255, means = means)
-
+    	inputs = load_img(imgdir, resize = (256, 256), isColor = is_color, crop_size = batch_shape[3], \
+    		crop_type = 'center_crop', raw_scale = 255, means = means)
     	net.blobs['data'].data[...] = inputs
     	prec = net.forward().values()[0][0][0]
-
         labellist.append(label)
         preclist.append(prec)
-
         print filename
 
     labellist = np.array(labellist)
