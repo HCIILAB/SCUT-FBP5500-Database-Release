@@ -39,12 +39,24 @@ All the experiments were implemented on two different platforms separately, Caff
 * Download link2 (faster for people in other places): 
 
   https://drive.google.com/file/d/1un5CjTz_49Lg6MTNQn99WD7FjFqEJGoY/view (Zip PASSWORD: 12345)
+  
+### Requirements For Caffe:
+* Python 2.7
+* Caffe
+* Numpy
+* Matplotlib
+* Scikit-image
 
 And the trained models for Pytorch (Size = 101MB) can be downloaded throught the following link:
 * Download link: 
 
 https://pan.baidu.com/s/1OhyJsCMfAdeo8kIZd29yAw (PASSWORD: ateu)
 
+### Requirements For Pytorch:
+* Python 2.7
+* Torch 1.0.1
+* Numpy
+* Pillow
 
 ## 4 Benchmark Evaluation
 
