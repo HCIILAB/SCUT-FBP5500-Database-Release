@@ -83,4 +83,7 @@ Note: The SCUT-FBP5500 database can be only used for non-commercial research pur
 
 For any questions about this database please contact the authors by sending email to `lianwen.jin@gmail.com` and `lianglysky@gmail.com`.
 
-Desclaimer: This AI algorithm is purely for academic research purpose. The dataset and codes are for academic research use only. We are not responsible for the objectivity and accuracy of the proposed model and algorithm.
+
+##  Desclaimer
+
+This AI algorithm is purely for academic research purpose. The dataset and codes are for academic research use only. We are not responsible for the objectivity and accuracy of the proposed model and algorithm.
