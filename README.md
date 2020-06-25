@@ -1,10 +1,10 @@
 # SCUT-FBP5500-Database-Release
 
 A diverse benchmark database (Size = 172MB) for multi-paradigm facial beauty prediction is now released by Human Computer Intelligent Interaction Lab of South China University of Technology. The database can be downloaded through the following links: 
-* Download link1 (faster for people in China): 
+* Download link1: 
 
   https://pan.baidu.com/s/1Ff2W2VLJ1ZbWSeV5JbF0Iw  (PASSWORD: if7p) 
-* Download link2 (faster for people in other places): 
+* Download link2: 
 
   https://drive.google.com/open?id=1w0TorBfTIqbquQVd6k3h_77ypnrvfGwf
 
@@ -35,10 +35,10 @@ We trained three different CNN models (AlexNet, ResNet-18, ResNeXt-50) on SCUT-F
 All the experiments were implemented on two different platforms separately, Caffe and Pytorch. And we release the codes of feed-forward implementation and the CNN models that were trained by the data of 'train_1.txt'. Please refer to the 'trained_models_for_caffe' and 'trained_models_for_pytorch' folders for more details. 
 ### Trained Models for Caffe
 The trained models for Caffe (Size = 322MB) can be downloaded through the following links: 
-* Download link1 (faster for people in China): 
+* Download link1: 
 
   https://pan.baidu.com/s/1byWe21ATKnpGarKY5feg1g> (PASSWORD：owgm; Zip PASSWORD: 12345)
-* Download link2 (faster for people in other places): 
+* Download link2: 
 
   https://drive.google.com/file/d/1un5CjTz_49Lg6MTNQn99WD7FjFqEJGoY/view (Zip PASSWORD: 12345)
 #### Requirements:
@@ -50,9 +50,15 @@ The trained models for Caffe (Size = 322MB) can be downloaded through the follow
 
 ### Trained Models for Pytorch
 And the trained models for Pytorch (Size = 101MB) can be downloaded throught the following link:
-* Download link: 
+* Download link1: 
 
 https://pan.baidu.com/s/1OhyJsCMfAdeo8kIZd29yAw (PASSWORD: ateu)
+* Download link2:
+
+https://drive.google.com/file/d/1tAhZ3i4Pc_P3Fabmg62hGVHwKeSQtYaY/view?usp=sharing
+
+* The code to transfter Pytorch models saved in Python 2 to Python 3+:
+[torch-converter][https://github.com/brian-xu/torch-converter]
 #### Requirements:
 * Python 2.7
 * Torch 1.0.1
