@@ -50,9 +50,13 @@ The trained models for Caffe (Size = 322MB) can be downloaded through the follow
 
 ### Trained Models for Pytorch
 And the trained models for Pytorch (Size = 101MB) can be downloaded throught the following link:
-* Download link: 
+* Download link1: 
 
 https://pan.baidu.com/s/1OhyJsCMfAdeo8kIZd29yAw (PASSWORD: ateu)
+* Download lin2:
+
+https://drive.google.com/file/d/1tAhZ3i4Pc_P3Fabmg62hGVHwKeSQtYaY/view?usp=sharing
+
 #### Requirements:
 * Python 2.7
 * Torch 1.0.1
